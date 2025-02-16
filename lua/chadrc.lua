@@ -6,12 +6,12 @@
 local M = {}
 
 M.base46 = {
-  theme = "solarized_dark",
+  theme = "bearded-arc",
 
-  hl_override = {
-  	Comment = { italic = true },
-  	["@comment"] = { italic = true },
-  },
+  -- hl_override = {
+  -- 	Comment = { italic = true },
+  -- 	["@comment"] = { italic = true },
+  -- },
 }
 
 M.nvdash = { load_on_startup = true }
@@ -20,8 +20,8 @@ M.ui = {
     style = "bordered",
   },
   statusline = {
-    theme = "minimal",
-    separator_style = "round",
+    theme = "default",
+    separator_style = "arrow",
   }
 }
 
