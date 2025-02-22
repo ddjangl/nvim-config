@@ -7,6 +7,7 @@ local M = {}
 
 M.base46 = {
   theme = "bearded-arc",
+  transparency = true,
 
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -21,7 +22,7 @@ M.ui = {
   },
   statusline = {
     theme = "default",
-    separator_style = "arrow",
+    separator_style = "default",
   }
 }
 
