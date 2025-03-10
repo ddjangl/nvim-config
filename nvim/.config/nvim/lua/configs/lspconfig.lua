@@ -17,7 +17,7 @@ for _, lsp in ipairs(servers) do
 end
 
 lspconfig.clangd.setup {
-  cmd = { 'clangd', '--query-driver=/usr/local/bin/arm-none-eabi-gcc'},
+  cmd = { 'clangd', '--query-driver=/usr/bin/arm-none-eabi-gcc'},
   on_attach = nvlsp.on_attach,
   on_init = nvlsp.on_init,
   capabilities = nvlsp.capabilities,
